@@ -21,5 +21,5 @@ venv: venv/bin/activate
 plugins_dir:
 	mkdir -p $(PLUGINS_DIR)
 
-python: plugins_dir
+python: plugins_dir venv
 	cp -r python/* $(PLUGINS_DIR)
