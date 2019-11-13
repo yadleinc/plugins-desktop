@@ -1,0 +1,20 @@
+{
+  "command": [
+    "python $HOME/yadle/plugins/bucket.py"
+  ],
+  "enabled": true,
+  "excludes": [
+  ],
+  "includes":[ 
+  ],
+  "name": "Copy to bucket",
+  "platforms":{
+    "win32": false,
+    "osx": false,
+    "linux": true
+  },
+  "users":[
+    "yadle"
+  ],
+  "bulk": true
+}
