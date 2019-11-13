@@ -1,0 +1,20 @@
+{
+  "command": [
+    "python $HOME/yadle/plugins/set_bucket.py"
+  ],
+  "enabled": true,
+  "excludes": [ 
+  ],
+  "includes": [
+  ],
+  "name": "Set bucket folder",
+  "platforms": {
+    "win32": false,
+    "osx": false,
+    "linux": true
+  },
+  "users": [
+    "yadle"
+  ],
+  "bulk": true
+}
