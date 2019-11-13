@@ -5,15 +5,15 @@
   "enabled": true,
   "excludes": [
   ],
-  "includes":[ 
+  "includes": [ 
   ],
   "name": "Copy to bucket",
-  "platforms":{
+  "platforms": {
     "win32": false,
     "osx": false,
     "linux": true
   },
-  "users":[
+  "users": [
     "yadle"
   ],
   "bulk": true
