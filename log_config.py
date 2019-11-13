@@ -2,6 +2,16 @@
 """
 
 import logging
+import os
+
+
+# Compose the log file name, and ensure that the directory is created.
+home_dir = os.path.expanduser('~')
+log_file = os.path.join(home_dir, 'yadle', 'logs', 'plugin.log')
+try:
+	os.makedirs(os.path.dirname(log_file))
+except:
+	pass
 
 
 class FilenameLinenoFilter(logging.Filter):
@@ -20,19 +30,20 @@ log_config = {
     },
     'formatters': {
         'default': {
-            'format': '%(asctime)-15s %(filename_lineno)-28s %(levelname)-8s| %(message)s',
+            'format': '%(asctime)-15s %(filename_lineno)-20s %(levelname)-8s| %(message)s',
         },
     },
     'handlers': {
         'default': {
-            'class': 'logging.StreamHandler',
+            'filename': log_file,
+            'class': 'logging.FileHandler',
             'filters': ['filename_lineno_filter'],
             'formatter': 'default',
         },
     },
     'loggers': {
         '': {
-            'level': 'INFO',
+            'level': 'DEBUG',
             'handlers': ['default'],
         },
     },
