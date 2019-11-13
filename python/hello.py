@@ -1,12 +1,22 @@
-""" Test for Yadle python plugins.
+""" A "hello world" example of a python plugin.
+
+Just writes sys.argv to a log file.
 """
 
+import logging
 import os
 import sys
 
-this_dir = os.path.dirname(os.path.abspath(__file__))
-output_file = os.path.join(this_dir, 'hello.log')
 
-with open(output_file, 'w') as f:
-    for arg in sys.argv:
-        f.write(arg + '\n')
+home_dir = os.path.expanduser('~')
+
+# Setup logging.
+log_file = os.path.join(home_dir, 'yadle', 'logs', 'plugin.log')
+try:
+	os.makedirs(os.path.dirname(log_file))
+except:
+	pass
+logging.basicConfig(filename=log_file, level=logging.DEBUG)
+
+for arg in sys.argv:
+    logging.debug(arg)
