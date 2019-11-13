@@ -1,6 +1,4 @@
-""" A "hello world" example of a python plugin.
-
-Just writes sys.argv to a log file.
+""" A "hello world" python plugin that just writes sys.argv to a log file.
 """
 
 import logging
