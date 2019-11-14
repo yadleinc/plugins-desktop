@@ -2,6 +2,7 @@
 """
 
 import logging
+import logging.config
 import os
 
 
@@ -51,3 +52,5 @@ log_config = {
     'incremental': False,
     'disable_existing_loggers': True,
 }
+
+logging.config.dictConfig(log_config)

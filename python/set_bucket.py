@@ -1,19 +1,16 @@
 """ Plugin for Yadle desktop papp that sets the bucket directory.
 """
 
-import logging.config
+import logging
 import os
 import shutil
 from subprocess import call, check_output, CalledProcessError
 import sys
 
 
-# Add location of python executable to sys.path,
-# import local configuration and configure logging.
+# Configure logging by importing local module log_config.
 sys.path.append(os.path.dirname(sys.executable))
-from log_config import log_config
-logging.config.dictConfig(log_config)
-
+import log_config
 
 home_dir = os.path.expanduser('~')
 default_bucket = os.path.join(home_dir, 'Desktop', 'bucket_1')

@@ -1,19 +1,16 @@
 """ Plugin for Yadle desktop app that copies the file to a folder.
 """
 
-import logging.config
+import logging
 import os
 import shutil
 from subprocess import call
 import sys
 
 
-# Add location of python executable to sys.path,
-# import local configuration and configure logging.
+# Configure logging by importing local module log_config.
 sys.path.append(os.path.dirname(sys.executable))
-from log_config import log_config
-logging.config.dictConfig(log_config)
-
+import log_config
 
 file_path = sys.argv[1]
 home_dir = os.path.expanduser('~')
