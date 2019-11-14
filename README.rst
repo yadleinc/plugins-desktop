@@ -2,18 +2,22 @@ plugins-desktop
 ===============
 Plugins for the Yadle Desktop app.
 
-Plugins for:
+Contains sample plugins that can:
 
-- Open in File Explorer
-- Open in terminal
-- Print
-- Preview
+- open in File Explorer
+- open in terminal
+- print
+- preview
 
+Installation
+------------
 Install Python versions of the plugins:
 ::
 
    make python
-   
+
+Make your own plugin
+--------------------
 The .json files describe the plugin to the Yadle desktop app.
 
 Put the files in a yadle directory in your home.  Ex:  /home/david/yadle
