@@ -15,7 +15,6 @@ from log_config import log_config
 logging.config.dictConfig(log_config)
 
 
-file_path = sys.argv[1]
 home_dir = os.path.expanduser('~')
 default_bucket = os.path.join(home_dir, 'Desktop', 'bucket_1')
 icon = os.path.join(home_dir, 'yadle', 'plugins', 'logo.png')

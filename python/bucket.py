@@ -33,7 +33,6 @@ with open(bucket_data) as f:
 logging.debug('file_path: {}'.format(file_path))
 logging.debug('home_dir: {}'.format(home_dir))
 logging.debug('default_bucket: {}'.format(default_bucket))
-logging.debug('file_path: {}'.format(file_path))
 
 if not os.path.isdir(bucket):
 	logging.debug('Creating bucket {}'.format(bucket))
