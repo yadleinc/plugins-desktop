@@ -1,6 +1,6 @@
 plugins-desktop
 ===============
-Plugins for the Yadle Desktop app.
+Plugins for the Yadle desktop app.
 
 Contains sample plugins that can:
 
@@ -18,7 +18,14 @@ Install Python versions of the plugins:
 
 Make your own plugin
 --------------------
-The .json files describe the plugin to the Yadle desktop app.
+Each plugin has it's own ``.json`` file.
+This file describes the plugin to the Yadle desktop app.
+The JSON object has the following fields:
+
+- ``"excludes"`` - File extensions ignored by this plugin
+- ``"includes"`` - File extensions acted upon by this plugin
+- ``"enabled"`` - Whether or not the plugin is active
+- ``"name"`` - Text that appears in the Yadle app menu
 
 Put the files in a yadle directory in your home.  Ex:  /home/david/yadle
 
