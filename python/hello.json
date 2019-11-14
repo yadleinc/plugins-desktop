@@ -1,9 +1,0 @@
-{
-  "command": [
-    "python ~/yadle/plugins/hello.py"
-  ],
-  "enabled": true,
-  "excludes": [],
-  "includes": [],
-  "name": "Hello"
-}
