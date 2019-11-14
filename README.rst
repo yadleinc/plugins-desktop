@@ -4,11 +4,11 @@ Plugins for the Yadle desktop app.
 
 Contains sample plugins that can:
 
-- open in File Explorer
-- open in terminal
-- print
-- preview
-
+- open the file in File Explorer
+- preview the file
+- print the file
+- etc.
+  
 Installation
 ------------
 Install Python versions of the plugins:
@@ -16,20 +16,21 @@ Install Python versions of the plugins:
 
    make python
 
-Make your own plugin
---------------------
-Each plugin has it's own ``.json`` file.
-This file describes the plugin to the Yadle desktop app.
+Create your own plugin
+----------------------
+Take a look at ``linux/`` or ``python/`` directories for examples.
+
+Each plugin has an implementation file (``.sh`` or ``.py``) and a ``.json`` file.
+
+The ``.json`` file describes the plugin to the Yadle desktop app.
+
 The JSON object has the following fields:
 
-- ``"excludes"`` - File extensions ignored by this plugin
-- ``"includes"`` - File extensions acted upon by this plugin
-- ``"enabled"`` - Whether or not the plugin is active
-- ``"name"`` - Text that appears in the Yadle app menu
+- ``"excludes"`` - file extensions ignored by this plugin
+- ``"includes"`` - file extensions acted upon by this plugin
+- ``"enabled"`` - whether or not the plugin is active
+- ``"name"`` - text that appears in the Yadle desktop app menu
 
-Put the files in a yadle directory in your home.  Ex:  /home/david/yadle
+You need to exit Yadle desktop and restart it if you change the ``.json`` file.
 
-Make sure all .sh files have execute bit set.  
-
-You need to exit Yadle desktop and restart it if you change a .json file.   
-No need to exit and restart if you change a .sh or .py file.
+(No need to exit and restart if you change the ``.sh`` or ``.py`` file.)
