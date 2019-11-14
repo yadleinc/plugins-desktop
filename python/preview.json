@@ -1,0 +1,11 @@
+{
+  "command": [
+    "python $HOME/yadle/plugins/preview.py"
+  ],
+  "enabled": true,
+  "excludes": [
+  ],
+  "includes": [
+  ],
+  "name": "Preview... "
+}
