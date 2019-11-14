@@ -4,7 +4,6 @@ a file manager app.
 
 import logging
 import os
-import shutil
 from subprocess import call
 import sys
 

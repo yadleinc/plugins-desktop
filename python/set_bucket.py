@@ -3,7 +3,6 @@
 
 import logging
 import os
-import shutil
 from subprocess import call, check_output, CalledProcessError
 import sys
 
