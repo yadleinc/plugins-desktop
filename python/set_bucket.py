@@ -6,10 +6,8 @@ import os
 from subprocess import call, check_output, CalledProcessError
 import sys
 
-
-# Configure logging by importing local module log_config.
-sys.path.append(os.path.dirname(sys.executable))
 import log_config
+
 
 home_dir = os.path.expanduser('~')
 default_bucket = os.path.join(home_dir, 'Desktop', 'bucket_1')

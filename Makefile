@@ -11,7 +11,6 @@ setup:
 	mkdir -p $(PLUGINS_DIR)
 
 python_plugins: setup
-	cp log_config.py $(INSTALL_DIR)
 	cp -r python/* $(PLUGINS_DIR)
 
 bash_plugins: setup
