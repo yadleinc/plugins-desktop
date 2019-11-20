@@ -1,6 +1,6 @@
 {
   "command": [
-    "python $HOME/yadle/plugins/explorer.py"
+    "$HOME/yadle/python $HOME/yadle/plugins/explorer.py"
   ],
   "enabled": true,
   "excludes": [
