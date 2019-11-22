@@ -2,7 +2,14 @@
   "command": [
     "$HOME/yadle/python $HOME/yadle/plugins/test_api.py"
   ],
+  "leading_arguments": [
+    "server_url",
+    "app_id",
+    "token_key"
+  ],
+  "file_argument": "id",
   "enabled": true,
+  "bulk": true,
   "excludes": [
   ],
   "includes": [
