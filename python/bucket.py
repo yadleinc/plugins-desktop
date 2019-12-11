@@ -1,4 +1,4 @@
-""" Plugin for Yadle desktop app that copies the file to a folder.
+""" Plugin for the Yadle desktop app that copies the file to a folder.
 """
 
 import logging

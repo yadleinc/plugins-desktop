@@ -1,4 +1,4 @@
-""" Plugin for Yadle desktop app that opens terminal in a file's directory.
+""" Plugin for the Yadle desktop app that opens terminal in a file's directory.
 """
 
 import logging

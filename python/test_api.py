@@ -1,4 +1,4 @@
-""" Sample plugin to show usage of Yadle API.
+""" Plugin for the Yadle desktop app that shows how to use the Yadle API.
 """
 
 import json

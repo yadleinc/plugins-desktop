@@ -1,4 +1,4 @@
-""" Plugin for Yadle desktop papp that sets the bucket directory.
+""" Plugin for the Yadle desktop app that sets the bucket directory.
 """
 
 import logging

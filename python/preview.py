@@ -1,4 +1,4 @@
-""" Plugin for Yadle desktop app that opens requested file in a viewer app.
+""" Plugin for the Yadle desktop app that opens requested file in a viewer app.
 """
 
 import logging

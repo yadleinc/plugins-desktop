@@ -1,4 +1,4 @@
-""" Logging configuration.
+""" Logging configuration for the Yadle desktop app.
 """
 
 import logging

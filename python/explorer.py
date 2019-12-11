@@ -1,4 +1,4 @@
-""" Plugin for Yadle desktop app that opens a file's directory in
+""" Plugin for the Yadle desktop app that opens a file's directory in
 a file manager app.
 """
 
