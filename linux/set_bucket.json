@@ -1,23 +1,22 @@
 {
-   "command":[
-		"$HOME/yadle/plugins/set_bucket.sh"
-   ],
-   "enabled":true,
-   "excludes":[
-
-   ],
-   "includes":[
-
-   ],
-   "name":"Set bucket folder",
-   "platforms":{
-      "win32":false,
-      "osx":false,
-      "linux":true
-   },
-   "users":[
-     "yadle"
-   ],
-	"bulk": true
+    "name": "Set bucket folder",
+    "command": [
+	"$HOME/yadle/plugins/set_bucket.sh"
+    ],
+    "enabled": true,
+    "excludes": [
+        
+    ],
+    "includes": [
+        
+    ],
+    "platforms": {
+        "win32": false,
+        "osx": false,
+        "linux": true
+    },
+    "users": [
+        "yadle"
+    ],
+    "bulk": true
 }
-

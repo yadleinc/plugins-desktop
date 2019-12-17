@@ -1,17 +1,17 @@
 {
-	"command":[
-		"lp "
-	],
-	"enabled":true,
-	"excludes":[
-	],
-	"includes":[
-		".doc",
-		".docx",
-		".pdf",
-		".ppt",
-		".pptx",
-		".txt"
-	],
-	"name":"Print..."
+    "name": "Print",
+    "command": [
+	"lp "
+    ],
+    "enabled": true,
+    "excludes": [
+    ],
+    "includes": [
+	".doc",
+	".docx",
+	".pdf",
+	".ppt",
+	".pptx",
+	".txt"
+    ]
 }

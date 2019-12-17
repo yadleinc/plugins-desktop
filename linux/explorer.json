@@ -1,13 +1,11 @@
 {
-   "command": [
-		"~/yadle/plugins/explorer.sh"
-   ],
-   "enabled":true,
-   "excludes":[
-
-   ],
-   "includes":[
-
-   ],
-   "name":"Open in File Browser... "
+    "name": "Open in File Browser",
+    "command": [
+	"~/yadle/plugins/explorer.sh"
+    ],
+    "enabled": true,
+    "excludes": [
+    ],
+    "includes": [        
+    ]
 }
