@@ -17,7 +17,7 @@ bash_plugins: setup
 	cp -r linux/* $(PLUGINS_DIR)
 
 remove_plugins:
-	rm -f $(PLUGINS_DIR)/*
+	rm -rf $(PLUGINS_DIR)/*
 
 venv/bin/activate: requirements.txt
 	test -d $(INSTALL_DIR)/venv || virtualenv -p python3 $(INSTALL_DIR)/venv
