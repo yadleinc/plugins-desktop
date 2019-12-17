@@ -1,20 +1,13 @@
 {
-  "command": [
-    "$HOME/yadle/python $HOME/yadle/plugins/bucket.py"
-  ],
-  "enabled": true,
-  "excludes": [
-  ],
-  "includes": [ 
-  ],
-  "name": "Copy to bucket",
-  "platforms": {
-    "win32": false,
-    "osx": false,
-    "linux": true
-  },
-  "users": [
-    "yadle"
-  ],
-  "bulk": true
+    "name": "Copy to bucket",
+    "command": [
+        "$HOME/yadle/python $HOME/yadle/plugins/bucket.py"
+    ],
+    "file_argument": "path",
+    "platforms": {
+        "win32": true,
+        "osx": true,
+        "linux": true
+    },
+    "bulk": true
 }

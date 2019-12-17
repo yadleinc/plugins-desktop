@@ -1,11 +1,12 @@
 {
-  "command": [
-    "$HOME/yadle/python $HOME/yadle/plugins/preview.py"
-  ],
-  "enabled": true,
-  "excludes": [
-  ],
-  "includes": [
-  ],
-  "name": "Preview... "
+    "name": "Preview",
+    "command": [
+        "$HOME/yadle/python $HOME/yadle/plugins/preview.py"
+    ],
+    "enabled": true,
+    "platforms": {
+        "linux": true,
+        "win32": false,
+        "osx": false
+    }
 }

@@ -1,11 +1,12 @@
 {
-  "command": [
-    "$HOME/yadle/python $HOME/yadle/plugins/terminal.py"
-  ],
-  "enabled": true,
-  "excludes": [
-  ],
-  "includes": [
-  ],
-  "name": "Open in Terminal..."
+    "name": "Open in Terminal",
+    "command": [
+        "$HOME/yadle/python $HOME/yadle/plugins/terminal.py"
+    ],
+    "enabled": true,
+    "excludes": [
+    ],
+    "includes": [
+    ],
+    bulk: false
 }

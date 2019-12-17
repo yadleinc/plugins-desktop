@@ -1,11 +1,11 @@
 {
-  "command": [
-    "$HOME/yadle/python $HOME/yadle/plugins/explorer.py"
-  ],
-  "enabled": true,
-  "excludes": [
-  ],
-  "includes": [   
-  ],
-  "name": "Open in File Browser..."
+    "name": "Open in File Browser",
+    "command": [
+        "$HOME/yadle/python $HOME/yadle/plugins/explorer.py"
+    ],
+    "platforms": {
+        "linux": true,
+        "win32": false,
+        "osx": false
+    }
 }
