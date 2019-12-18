@@ -63,7 +63,7 @@ The JSON object has the following fields:
 ``"leading_arguments"``
    Optional list of command line arguments when invoking the plugin command.
    These are arguments added to the command string above.
-   Can be any of: ``"server_url"``, ``"app_id"``, ``"token_key"``.
+   Can be any of: ``"server_url"``, ``"app_id"``, ``"token_key"``, ``"user_id"``.
 
 ``"file_argument"``
    Optional field indicating the file attribute to add at the end of

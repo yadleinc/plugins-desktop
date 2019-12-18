@@ -6,7 +6,8 @@
     "leading_arguments": [
         "server_url",
         "app_id",
-        "token_key"
+        "token_key",
+        "user_id"
     ],
     "file_argument": "id",
     "enabled": true,
