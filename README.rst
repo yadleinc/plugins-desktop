@@ -43,9 +43,11 @@ Take a look at ``python/`` and ``linux/`` directories for examples.
 How plugins work
 ................
 A plugin is a standalone program that runs predefined actions
-on individual files or a group of selected files.
-It accepts search results as command line parameters,
-e.g. ``sys.argv`` in Python or ``$1 $2...`` in Bash.
+when the user invokes the plugin for and individual file or
+a group of selected files.
+
+The plugin code can accept optional, configurable arguments as command line
+parameters, e.g. ``sys.argv`` in Python or ``$1 $2...`` in Bash.
 
 Each plugin has an implementation file (``.py`` or ``.sh``) and
 a ``.json`` file that describes the plugin to the Yadle desktop app.
