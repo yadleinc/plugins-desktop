@@ -3,10 +3,14 @@
     "command": [
         "$HOME/yadle/python $HOME/yadle/plugins/terminal.py"
     ],
+    "file_argument": "path",
     "enabled": true,
     "excludes": [
     ],
     "includes": [
     ],
-    bulk: false
+    "platforms": {
+        "linux": true
+    },
+    "bulk": false
 }
