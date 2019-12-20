@@ -14,12 +14,14 @@ server_url = sys.argv[1]
 app_id = sys.argv[2]
 token_key = sys.argv[3]
 user_id = sys.argv[4]
-file_ids = sys.argv[5:]
+search_terms = sys.argv[5]
+file_ids = sys.argv[6:]
 
-logging.debug('server_url : {}'.format(server_url))
-logging.debug('app_id     : {}'.format(app_id))
-logging.debug('token_key  : {}'.format(token_key))
-logging.debug('user_id    : {}'.format(user_id))
+logging.debug('server_url   : {}'.format(server_url))
+logging.debug('app_id       : {}'.format(app_id))
+logging.debug('token_key    : {}'.format(token_key))
+logging.debug('user_id      : {}'.format(user_id))
+logging.debug('search_terms : {}'.format(search_terms))
 for file_id in file_ids:
     logging.debug('file_id    : {}'.format(file_id))
 

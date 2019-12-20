@@ -7,7 +7,8 @@
         "server_url",
         "app_id",
         "token_key",
-        "user_id"
+        "user_id",
+        "search_terms"
     ],
     "file_argument": "id",
     "enabled": true,

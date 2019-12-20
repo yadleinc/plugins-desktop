@@ -43,8 +43,7 @@ Take a look at ``python/`` and ``linux/`` directories for examples.
 How plugins work
 ................
 A plugin is a standalone program that runs predefined actions
-when the user invokes the plugin for and individual file or
-a group of selected files.
+when the user invokes it for and individual file or a group of selected files.
 
 The plugin code can accept optional, configurable arguments as command line
 parameters, e.g. ``sys.argv`` in Python or ``$1 $2...`` in Bash.
@@ -63,14 +62,15 @@ The JSON object has the following fields:
 ``"leading_arguments"``
    Optional list of command line arguments when invoking the plugin command.
    These are arguments added to the command string above.
-   Can be any of: ``"server_url"``, ``"app_id"``, ``"token_key"``, ``"user_id"``.
+   Can be any of: ``"server_url"``, ``"app_id"``, ``"token_key"``,
+   ``"user_id"``, ``"search_terms"``.
 
 ``"file_argument"``
-   Optional field indicating the file attribute to add at the end of
-   the command string.
+   Optional field indicating the type of file attribute to add at the end of
+   command string.
 
-   May be either ``"id"`` to denote file ID or ``"path"`` to indicate
-   the complete filesystem path to the file.
+   May be either ``"id"`` for file ID, or ``"path"`` for the complete
+   filesystem path to the file.
 
    If operating on multiple files (i.e. bulk mode) the command
    string is extended by appending this attribute to the command
