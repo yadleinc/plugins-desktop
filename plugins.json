@@ -1,0 +1,32 @@
+[
+    {
+        "item": "Bash bucket",
+        "plugin": "bucket.json"
+    },
+    {
+        "item": "Python bucket",
+        "plugin": "bucket_py.json"
+    },
+    {
+        "menu": "Bash plugins",
+        "items": [
+            "bucket.json",
+            "explorer.json",
+            "preview.json",
+            "print.json",
+            "set_bucket.json",
+            "terminal.json"
+        ]
+    },
+    {
+        "menu": "Python plugins",
+        "items": [
+            "bucket_py.json",
+            "explorer_py.json",
+            "preview_py.json",
+            "set_bucket_py.json",
+            "terminal_py.json",
+            "test_api_py.json"
+        ]
+    }
+]
