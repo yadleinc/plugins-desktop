@@ -3,6 +3,7 @@
     "command": [
         "$HOME/yadle/python $HOME/yadle/plugins/preview.py"
     ],
+    "file_argument": "path",
     "enabled": true,
     "platforms": {
         "linux": true,

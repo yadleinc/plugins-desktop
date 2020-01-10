@@ -3,6 +3,7 @@
     "command": [
         "$HOME/yadle/python $HOME/yadle/plugins/explorer.py"
     ],
+    "file_argument": "path",
     "platforms": {
         "linux": true,
         "win32": false,
