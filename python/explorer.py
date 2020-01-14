@@ -12,6 +12,7 @@ import log_config
 
 file_path = sys.argv[1]
 logging.debug('file_path: {}'.format(file_path))
-
 file_dir = os.path.dirname(file_path)
-call('xdg-open {}'.format(file_dir), shell=True)
+command = 'xdg-open {}'.format(file_dir)
+logging.debug('Running command: {}'.format(command))
+call(command, shell=True)

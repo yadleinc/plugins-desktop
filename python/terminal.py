@@ -11,6 +11,7 @@ import log_config
 
 file_path = sys.argv[1]
 logging.debug('file_path: {}'.format(file_path))
-
 file_dir = os.path.dirname(file_path)
+command = "gnome-terminal --working-directory='{}'".format(file_dir)
+logging.debug('Calling command: {}'.format(command))
 call("gnome-terminal --working-directory='{}'".format(file_dir), shell=True)
