@@ -39,7 +39,7 @@ commands = {
     'mpg': "mpv --geometry 50%+400+300 '{file_path}''",
     'mov': "mpv --geometry 50%+400+300 '{file_path}''",
     'exr': "djview '{file_path}'",
-    'idl': "djview} '{file_path}'",
+    'idl': "djview '{file_path}'",
     'mp3': "vlc '{file_path}'",
     'obj': "view3dscene --hide-extras --hide-menu '{file_path}'",
     'stl': "view3dscene --hide-extras --hide-menu --geometry ${w}x${h}+${x}+${y} '${file_path}'",
@@ -52,7 +52,6 @@ commands = {
 _, extension = os.path.splitext(file_path)
 command = commands[extension] if extension in commands.keys() else \
           "xdg-open '{file_path}'"
-
 command = command.format(**command_args)
 logging.debug('Calling command: {}'.format(command))
 call(command, shell=True)
