@@ -12,6 +12,5 @@
         "linux": true,
         "win32": false,
         "osx": false
-    },
-    "bulk": true
+    }
 }

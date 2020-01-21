@@ -12,7 +12,6 @@
     ],
     "file_argument": "id",
     "enabled": true,
-    "bulk": true,
     "platforms": {
         "linux": true
     }

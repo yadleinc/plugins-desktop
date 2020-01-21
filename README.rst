@@ -72,9 +72,8 @@ The JSON object has the following fields:
    May be either ``"id"`` for file ID, or ``"path"`` for the complete
    filesystem path to the file.
 
-   If operating on multiple files (i.e. bulk mode) the command
-   string is extended by appending this attribute to the command
-   once for every file.
+   When operating on multiple files, command string is extended by
+   appending this attribute once for every file.
    
 ``"platforms"``
    Collection of name/Boolean pairs indicating O/S compatibility.
@@ -99,11 +98,6 @@ The JSON object has the following fields:
 ``"includes"``
    Optional list of file extensions acted upon by the plugin.
 
-``"bulk"``
-   Optional field indicating whether the plugin can operate on
-   multiple selected files (i.e. bulk mode). Can be ``true`` or ``false``.
-   If not present, defaults to ``false``.
-   
 ``"enabled"``
    Optional field indicating whether or not the plugin is active.
    Can be ``true`` or ``false``. If not present, defaults to ``true``.

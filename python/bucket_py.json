@@ -9,5 +9,5 @@
         "osx": true,
         "linux": true
     },
-    "bulk": true
+    "excludes": [".pdf"]
 }
