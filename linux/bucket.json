@@ -5,10 +5,6 @@
     ],
     "file_argument": "path",
     "enabled": true,
-    "excludes": [
-    ],
-    "includes": [  
-    ],
     "platforms":{
         "win32": false,
         "osx": false,

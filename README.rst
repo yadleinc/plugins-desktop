@@ -92,12 +92,6 @@ The JSON object has the following fields:
 
    If name is missing, the plugin is disabled for that O/S.
    
-``"excludes"``
-   Optional list of file extensions ignored by the plugin.
-     
-``"includes"``
-   Optional list of file extensions acted upon by the plugin.
-
 ``"enabled"``
    Optional field indicating whether or not the plugin is active.
    Can be ``true`` or ``false``. If not present, defaults to ``true``.

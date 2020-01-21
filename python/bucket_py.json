@@ -8,6 +8,5 @@
         "win32": true,
         "osx": true,
         "linux": true
-    },
-    "excludes": [".pdf"]
+    }
 }

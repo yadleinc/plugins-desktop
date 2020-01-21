@@ -3,9 +3,5 @@
     "command": [
 	"~/yadle/plugins/explorer.sh"
     ],
-    "enabled": true,
-    "excludes": [
-    ],
-    "includes": [        
-    ]
+    "enabled": true
 }

@@ -4,10 +4,6 @@
         "$HOME/yadle/python $HOME/yadle/plugins/set_bucket.py"
     ],
     "enabled": true,
-    "excludes": [ 
-    ],
-    "includes": [
-    ],
     "platforms": {
         "linux": true,
         "win32": false,

@@ -4,10 +4,6 @@
 	"~/yadle/plugins/terminal.sh"
     ],
     "enabled": true,
-    "excludes": [
-    ],
-    "includes": [
-    ],
     "platforms": {
         "linux": true
     }

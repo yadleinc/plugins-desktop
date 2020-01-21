@@ -3,10 +3,6 @@
     "command": [
 	"~/yadle/plugins/preview.sh"
     ],
-    "enabled": true,
-    "excludes": [
-    ],
-    "includes": [
-    ]
+    "enabled": true
 }
 
