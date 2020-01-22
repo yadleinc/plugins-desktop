@@ -33,24 +33,42 @@ You can remove all plugins by running:
 
    make remove_plugins
 
-Create your own plugins
------------------------
-You can add your own custom plugins to ``python/`` or ``linux/`` directories,
-and then re-run ``make`` to install them.
-
+How plugins work
+----------------
+A plugin is a standalone program that runs predefined actions when the user
+invokes it on an individual file or a group of selected files.
+A plugin accepts optional, configurable parameters as command line
+arguments, e.g. ``sys.argv`` in Python or ``$1 $2...`` in Bash.
 Take a look at ``python/`` and ``linux/`` directories for examples.
 
-How plugins work
-................
-A plugin is a standalone program that runs predefined actions
-when the user invokes it for and individual file or a group of selected files.
+The main configuration file ``plugins.json`` defines the plugin pulldown menu.
+It contains an array of objects, where each object can be a single plugin entry,
+using keys ``"item"`` and ``"plugin"``:
+::
 
-The plugin code can accept optional, configurable arguments as command line
-parameters, e.g. ``sys.argv`` in Python or ``$1 $2...`` in Bash.
+   {
+       "item": "Plugin title",
+       "plugin": "filename.json"
+   }
 
-Each plugin has an implementation file (``.py`` or ``.sh``) and
-a ``.json`` file that describes the plugin to the Yadle desktop app.
-The JSON object has the following fields:
+or a submenu of plugins using keys ``"menu"`` and ``"items"``:
+::
+
+   {
+       "menu": "Bash plugins",
+       "items": [
+           "bucket.json",
+           "explorer.json",
+           "preview.json",
+           "print.json",
+           "set_bucket.json",
+           "terminal.json"
+       ]
+   }
+
+In addition, each individual plugin has an implementation file
+(``.py`` or ``.sh``) and a ``.json`` configuration file
+with the following fields:
 
 ``"name"``
    Text that appears in the Yadle desktop app menu.
