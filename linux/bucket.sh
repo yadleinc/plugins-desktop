@@ -20,18 +20,22 @@ ext="${filename:${#base} + 1}"
 if [ ! -f "${HOME}/yadle/plugins/bucket1.data" ]; then echo "${basebucket}" > "${HOME}/yadle/plugins/bucket1.data"; fi
 
 # get the bucket path from the file
-bucket=$(< ~/yadle/plugins/bucket1.data)
+bucket=$(< ${HOME}/yadle/plugins/bucket1.data)
 
 # if bucket does not exist, create it
 if [ ! -f ${bucket} ]; then
 	mkdir -p "${bucket}"
 fi
 
-# copy file to it
-e=$(cp "${fullpath}" "${bucket}")
-
-# send desktop[ message
-notify-send -t 5000 -u normal -i ${icon} "Copied '${base}.${ext}' to '${bucket}'"
+# check for file, then copy it
+if [ -f "${fullpath}" ]; then	
+	e=$(cp "${fullpath}" "${bucket}")
+	# send success message
+	notify-send -t 5000 -u normal -i ${icon} "Copied '${base}.${ext}' to '${bucket}'"
+else
+	# send failure message
+	notify-send -t 5000 -u normal -i ${icon} "File not copied, check access to file location."
+fi
 
 # EOF
 

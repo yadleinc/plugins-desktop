@@ -1,10 +1,12 @@
 {
     "name": "Open in Terminal",
     "command": [
-	"~/yadle/plugins/terminal.sh"
+	"${HOME}/yadle/plugins/terminal.sh"
     ],
     "enabled": true,
     "platforms": {
+        "win32": false,
+        "osx": false,
         "linux": true
     }
 }

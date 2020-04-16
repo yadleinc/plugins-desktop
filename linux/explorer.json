@@ -1,7 +1,16 @@
 {
     "name": "Open in File Browser",
     "command": [
-	"~/yadle/plugins/explorer.sh"
+	"${HOME}/yadle/plugins/explorer.sh"
     ],
-    "enabled": true
+    "file_argument": "path",
+    "enabled": true,
+    "platforms": {
+        "win32": false,
+        "osx": false,
+        "linux": true
+    },
+    "users":[
+        "yadle"
+    ]
 }

@@ -12,7 +12,7 @@ icon="${HOME}/yadle/plugins/logo.png"
 if [ ! -f "${HOME}/yadle/plugins/bucket1.data" ]; then echo "${basebucket}" > "${HOME}/yadle/plugins/bucket1.data"; fi
 
 # get the bucket path from the file
-bucket=$(< ~/yadle/plugins/bucket1.data)
+bucket=$(< ${HOME}/yadle/plugins/bucket1.data)
 
 # open file selector, start in current bucket
 dir=$(zenity --file-selection --directory ${bucket})

@@ -1,7 +1,7 @@
 {
     "name": "Preview",
     "command": [
-	"~/yadle/plugins/preview.sh"
+	"${HOME}/yadle/plugins/preview.sh"
     ],
     "enabled": true
 }

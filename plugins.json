@@ -1,9 +1,5 @@
 [
     {
-        "item": "Bash bucket",
-        "plugin": "bucket.json"
-    },
-    {
         "item": "Python bucket",
         "plugin": "bucket_py.json"
     },
@@ -14,8 +10,8 @@
             "explorer.json",
             "preview.json",
             "print.json",
-            "set_bucket.json",
-            "terminal.json"
+            "terminal.json",
+            "set_bucket.json"
         ]
     },
     {
