@@ -1,12 +1,19 @@
 [
     {
-        "item": "Python bucket",
+        "item": "Copy to bucket",
+        "plugin": "bucket.json"
+    },
+    {
+        "item": "Copy to bucket",
         "plugin": "bucket_py.json"
+    },
+    {
+        "item": "Copy to bucket",
+        "plugin": "bucket_ps.json"
     },
     {
         "menu": "Bash plugins",
         "items": [
-            "bucket.json",
             "explorer.json",
             "preview.json",
             "print.json",
@@ -17,12 +24,21 @@
     {
         "menu": "Python plugins",
         "items": [
-            "bucket_py.json",
             "explorer_py.json",
             "preview_py.json",
             "set_bucket_py.json",
             "terminal_py.json",
             "test_api_py.json"
+        ]
+    },
+    {
+        "menu": "Windows plugins",
+        "items": [
+            "explorer_ps.json",
+            "preview_ps.json",
+            "set_bucket_ps.json",
+            "terminal_ps.json",
+            "test_api_ps.json"
         ]
     }
 ]

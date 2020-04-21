@@ -1,0 +1,16 @@
+{
+    "name": "Copy to bucket",
+    "command": [
+	"powershell -ExecutionPolicy unrestricted -File %userprofile%/yadle/plugins/bucket.ps1"
+    ],
+    "file_argument": "path",
+    "enabled": true,
+    "platforms": {
+        "win32": true,
+        "osx": false,
+        "linux": false
+    },
+    "users":[
+        "yadle"
+    ]
+}
