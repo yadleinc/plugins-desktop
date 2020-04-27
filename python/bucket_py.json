@@ -5,8 +5,8 @@
     ],
     "file_argument": "path",
     "platforms": {
-        "win32": true,
-        "osx": true,
-        "linux": true
+        "linux": true,
+        "windows": true,
+        "macos": true
     }
 }

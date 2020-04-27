@@ -7,7 +7,7 @@
     "enabled": true,
     "platforms": {
         "linux": true,
-        "win32": false,
-        "osx": false
+        "windows": false,
+        "macos": false
     }
 }

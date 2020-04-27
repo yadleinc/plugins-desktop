@@ -13,6 +13,8 @@
     "file_argument": "id",
     "enabled": true,
     "platforms": {
-        "linux": true
+        "linux": true,
+        "windows": false,
+        "macos": false
     }
 }
