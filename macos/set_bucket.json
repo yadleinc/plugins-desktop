@@ -1,0 +1,15 @@
+{
+    "name": "Set Bucket Folder",
+    "command": [
+	"$HOME/yadle/plugins/set_bucket.sh"
+    ],
+    "enabled": true,
+    "platforms": {
+        "windows": false,
+        "macos": true,
+        "linux": false
+    },
+    "users": [
+        "yadle"
+    ]
+}
