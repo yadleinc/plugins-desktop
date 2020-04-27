@@ -6,11 +6,8 @@
     "file_argument": "path",
     "enabled": true,
     "platforms": {
-        "win32": true,
-        "osx": false,
+        "windows": true,
+        "macos": false,
         "linux": false
-    },
-    "users":[
-        "yadle"
-    ]
+    }
 }

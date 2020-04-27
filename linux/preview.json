@@ -3,6 +3,14 @@
     "command": [
 	"${HOME}/yadle/plugins/preview.sh"
     ],
-    "enabled": true
+    "enabled": true,
+    "platforms":{
+        "windows": false,
+        "macos": false,
+        "linux": true
+    },
+    "users":[
+        "yadle"
+    ]
 }
 

@@ -3,5 +3,13 @@
     "command": [
 	"lp "
     ],
-    "enabled": true
+    "enabled": true,
+    "platforms":{
+        "windows": false,
+        "macos": false,
+        "linux": true
+    },
+    "users":[
+        "yadle"
+    ]
 }

@@ -5,9 +5,9 @@
     ],
     "file_argument": "path",
     "enabled": true,
-    "platforms": {
-        "win32": false,
-        "osx": false,
+    "platforms":{
+        "windows": false,
+        "macos": false,
         "linux": true
     },
     "users":[
