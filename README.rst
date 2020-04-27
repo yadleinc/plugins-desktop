@@ -14,6 +14,8 @@ Can be easily extended to handle custom functions.
 
 Installation
 ------------
+**macOS / Linux**
+
 Install the plugins by running make:
 ::
 
@@ -32,6 +34,12 @@ You can remove all plugins by running:
 ::
 
    make remove_plugins
+
+**Windows**
+
+Install the plugins by double-clicking the "windows_installer.bat".
+
+This creates the ``~/yadle`` directory and copies the plugin files to it.
 
 How plugins work
 ----------------
@@ -96,15 +104,15 @@ with the following fields:
 ``"platforms"``
    Collection of name/Boolean pairs indicating O/S compatibility.
    Names can be any of:
-   ``"aix"``, ``"darwin"``, ``"freebsd"``, ``"linux"``, ``"openbsd"``,
-   ``"sunos"``, ``"win32"``.
+   ``"aix"``, ``"macos"``, ``"freebsd"``, ``"linux"``, ``"openbsd"``,
+   ``"sunos"``, ``"windows"``.
 
    For example:
    ::
 
       "platforms": {
-        "win32": true,
-        "osx": false,
+        "windows": true,
+        "macos": false,
         "linux": true
       }
 
