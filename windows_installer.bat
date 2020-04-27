@@ -19,11 +19,10 @@ IF NOT EXIST %newfolder% (
 
 rem copy plugins
 echo Installing plugins...
+copy plugins.json %newfolder% > NUL
+copy windows\* %newfolder% > NUL
 echo.
-copy plugins.json %newfolder%
-copy windows\* %newfolder%
-echo.
-echo Plugins installed
+echo Plugins installed!
 echo.
 
 pause
