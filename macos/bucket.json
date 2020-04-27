@@ -1,0 +1,16 @@
+{
+    "name": "Add to Bucket",
+    "command": [
+	"$HOME/yadle/plugins/bucket.sh"
+    ],
+    "file_argument": "path",
+    "enabled": true,
+    "platforms":{
+        "windows": false,
+        "macos": true,
+        "linux": false
+    },
+    "users":[
+        "yadle"
+    ]
+}
