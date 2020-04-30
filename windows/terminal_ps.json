@@ -1,7 +1,7 @@
 {
     "name": "Open in terminal",
     "command": [
-	"powershell -ExecutionPolicy unrestricted -File %userprofile%/yadle/plugins/terminal.ps1"
+	"powershell -ExecutionPolicy bypass -File %userprofile%/yadle/plugins/terminal.ps1"
     ],
     "file_argument": "path",
     "enabled": true,
