@@ -1,7 +1,7 @@
 {
     "name": "Set bucket folder",
     "command": [
-	"powershell -ExecutionPolicy unrestricted -File %userprofile%/yadle/plugins/set_bucket.ps1"
+	"powershell -ExecutionPolicy bypass -File %userprofile%/yadle/plugins/set_bucket.ps1"
     ],
     "enabled": true,
     "platforms": {
