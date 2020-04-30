@@ -1,7 +1,7 @@
 {
     "name": "Open in explorer",
     "command": [
-	"powershell -ExecutionPolicy unrestricted -File %userprofile%/yadle/plugins/explorer.ps1"
+	"powershell -ExecutionPolicy bypass -File %userprofile%/yadle/plugins/explorer.ps1"
     ],
     "file_argument": "path",
     "enabled": true,
