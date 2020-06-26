@@ -4,9 +4,9 @@
 	"${HOME}/yadle/plugins/preview.sh"
     ],
     "enabled": true,
-    "platforms":{
-        "windows": false,
-        "macos": false,
+    "platforms": {
+        "win32": false,
+        "osx": false,
         "linux": true
     },
     "users":[

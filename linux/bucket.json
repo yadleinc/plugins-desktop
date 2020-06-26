@@ -6,8 +6,8 @@
     "file_argument": "path",
     "enabled": true,
     "platforms":{
-        "windows": false,
-        "macos": false,
+        "win32": false,
+        "osx": false,
         "linux": true
     },
     "users":[

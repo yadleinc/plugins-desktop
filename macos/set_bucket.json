@@ -5,8 +5,8 @@
     ],
     "enabled": true,
     "platforms": {
-        "windows": false,
-        "macos": true,
+        "win32": false,
+        "osx": true,
         "linux": false
     },
     "users": [

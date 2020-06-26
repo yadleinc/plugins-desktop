@@ -4,9 +4,9 @@
 	"$HOME/yadle/plugins/set_bucket.sh"
     ],
     "enabled": true,
-    "platforms":{
-        "windows": false,
-        "macos": false,
+    "platforms": {
+        "win32": false,
+        "osx": false,
         "linux": true
     },
     "users":[

@@ -6,7 +6,7 @@
     "file_argument": "path",
     "platforms": {
         "linux": true,
-        "windows": false,
-        "macos": false
+        "win32": false,
+        "osx": false
     }
 }
