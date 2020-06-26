@@ -111,8 +111,8 @@ with the following fields:
    ::
 
       "platforms": {
-        "windows": true,
-        "macos": false,
+        "win32": true,
+        "osx": false,
         "linux": true
       }
 
