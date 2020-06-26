@@ -104,8 +104,8 @@ with the following fields:
 ``"platforms"``
    Collection of name/Boolean pairs indicating O/S compatibility.
    Names can be any of:
-   ``"aix"``, ``"macos"``, ``"freebsd"``, ``"linux"``, ``"openbsd"``,
-   ``"sunos"``, ``"windows"``.
+   ``"aix"``, ``"osx"``, ``"freebsd"``, ``"linux"``, ``"openbsd"``,
+   ``"sunos"``, ``"win32"``.
 
    For example:
    ::
