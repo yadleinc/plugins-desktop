@@ -104,7 +104,7 @@ with the following fields:
 ``"platforms"``
    Collection of name/Boolean pairs indicating O/S compatibility.
    Names can be any of:
-   ``"aix"``, ``"osx"``, ``"freebsd"``, ``"linux"``, ``"openbsd"``,
+   ``"aix"``, ``"darwin"``, ``"freebsd"``, ``"linux"``, ``"openbsd"``,
    ``"sunos"``, ``"win32"``.
 
    For example:
@@ -112,7 +112,7 @@ with the following fields:
 
       "platforms": {
         "win32": true,
-        "osx": false,
+        "darwin": true,
         "linux": true
       }
 
