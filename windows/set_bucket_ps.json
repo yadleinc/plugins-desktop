@@ -6,7 +6,7 @@
     "enabled": true,
     "platforms": {
         "win32": true,
-        "osx": false,
+        "darwin": false,
         "linux": false
     }
 }

@@ -7,6 +7,6 @@
     "platforms": {
         "linux": true,
         "win32": true,
-        "osx": true
+        "darwin": true
     }
 }

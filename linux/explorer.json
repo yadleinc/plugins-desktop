@@ -7,7 +7,7 @@
     "enabled": true,
     "platforms":{
         "windows": false,
-        "macos": false,
+        "darwin": false,
         "linux": true
     },
     "users":[

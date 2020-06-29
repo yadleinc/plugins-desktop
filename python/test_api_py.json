@@ -15,6 +15,6 @@
     "platforms": {
         "linux": true,
         "win32": false,
-        "osx": false
+        "darwin": false
     }
 }
