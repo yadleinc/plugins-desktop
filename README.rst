@@ -36,7 +36,7 @@ Summary of plugins
 
 - **Open in Terminal:** Opens selected file in terminal (linux/macos) or powershell (windows).
 
-- **Open in File Explorer:** Opens selected file in native file explorer.
+- **Open in File Browser/Explorer:** Opens selected file in OS native file explorer.
 
 - **Tag as Favorite:** Apply #favorite tag to files with the click of a button. No need for any keyboard entry.
 
