@@ -24,7 +24,7 @@ This creates the ``~/yadle/plugins`` directory and copies the macOS plugin files
 
 Install the plugins by double-clicking the ``windows_installer.bat``.
 
-This creates the ``~/yadle/plugins`` directory and copies the Windows plugin files to it.
+This creates the ``%USERPROFILE%\yadle\plugins`` directory and copies the Windows plugin files to it.
 
 Summary of plugins
 ------------------
