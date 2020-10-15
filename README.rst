@@ -34,14 +34,19 @@ Setting a destination folder or "bucket".
 
 **Copy to Bucket**
 Copy files from Yadle search results to "bucket".
+
 **Preview**
 Preview the file with application of your choosing based on extension.
+
 **Open in Terminal**
-Opens selected file in terminal (linux/macos) or powershell (windows)
+Opens selected file in terminal (linux/macos) or powershell (windows).
+
 **Open in File Explorer**
 Opens selected file in native file explorer.
+
 **Tag as Favorite**
 Apply #favorite tag to files with the click of a button. No need for any keyboard entry.
+
 **Print**
 Prints selected file.
 
