@@ -5,7 +5,7 @@ username=""
 password=""
 
 # tag name
-tag=""
+tag="favorite"
 
 # API server url
 api_url=""
