@@ -8,7 +8,7 @@ Installation
 
 ::
 
-   ./linux_installer.sh
+   bash linux_installer.sh
 
 This creates the ``~/yadle/plugins`` directory and copies the Linux plugin files to it.
 
@@ -16,7 +16,7 @@ This creates the ``~/yadle/plugins`` directory and copies the Linux plugin files
 
 ::
 
-   ./macos_installer.sh
+   bash macos_installer.sh
    
 This creates the ``~/yadle/plugins`` directory and copies the macOS plugin files to it.
 
