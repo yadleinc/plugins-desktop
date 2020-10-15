@@ -2,44 +2,41 @@ plugins-desktop
 ===============
 Plugins for the Yadle desktop app.
 
-Contains sample plugins that can do stuff like:
-
-- copy the file into a custom folder
-- show the file in File Explorer
-- preview the file
-- print the file
-- etc.
-
-Can be easily extended to handle custom functions.
-
 Installation
 ------------
-**macOS / Linux**
+**Linux**
 
-Install the plugins by running make:
 ::
 
-   make python_plugins
+   ./linux_installer.sh
 
-This creates the ``~/yadle`` directory and copies the plugin files to it.
+This creates the ``~/yadle/plugins`` directory and copies the Linux plugin files to it.
 
-You can also install Bash versions of the plugins:
+**macOS**
+
 ::
 
-   make bash_plugins
-
-Sample plugins are duplicated in both implementations, Python and Bash.
-Installing both will create duplicate entries in the desktop app menu.
-You can remove all plugins by running:
-::
-
-   make remove_plugins
+   ./macos_installer.sh
+   
+This creates the ``~/yadle/plugins`` directory and copies the macOS plugin files to it.
 
 **Windows**
 
-Install the plugins by double-clicking the "windows_installer.bat".
+Install the plugins by double-clicking the ``windows_installer.bat``.
 
-This creates the ``~/yadle`` directory and copies the plugin files to it.
+This creates the ``~/yadle/plugins`` directory and copies the Windows plugin files to it.
+
+Summary of plugins
+------------------
+Contains sample plugins that can do stuff like:
+
+- Setting a destination folder or "bucket".
+- Copy files from Yadle search results to "bucket".
+- Preview the file with application of your choosing based on extension.
+- Print the file.
+- Open file in terminal.
+
+These plugins are meant to act as examples providing the framework to create your own custom actions.
 
 How plugins work
 ----------------
