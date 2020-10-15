@@ -34,7 +34,7 @@ Summary of plugins
 
 - **Preview:** Preview the file with application of your choosing based on extension.
 
-- **Open in Terminal:** Opens selected file in terminal (linux/macos) or powershell (windows).
+- **Open in Terminal:** Opens selected file in terminal.
 
 - **Open in File Browser/Explorer:** Opens selected file in OS native file explorer.
 
