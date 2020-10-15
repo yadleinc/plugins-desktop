@@ -15,4 +15,6 @@ cp plugins.json ${install_location}
 
 cp macos/* ${install_location}
 
+chmod +x ${install_location}/*.sh
+
 echo "Plugins Installed Successfully"
