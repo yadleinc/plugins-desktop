@@ -34,7 +34,7 @@ Contains sample plugins that can do stuff like:
 - Copy files from Yadle search results to "bucket".
 - Preview the file with application of your choosing based on extension.
 - Print the file.
-- Open file in terminal.
+- Open file in terminal/file explorer.
 
 These plugins are meant to act as examples providing the framework to create your own custom actions.
 
