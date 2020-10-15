@@ -29,7 +29,9 @@ This creates the ``%USERPROFILE%\yadle\plugins`` directory and copies the Window
 Summary of plugins
 ------------------
 **Set Bucket Folder**
+
 Setting a destination folder or "bucket".
+
 **Copy to Bucket**
 Copy files from Yadle search results to "bucket".
 **Preview**
