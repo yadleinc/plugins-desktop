@@ -9,8 +9,5 @@
         "win32": false,
         "darwin": true,
         "linux": false
-    },
-    "users":[
-        "yadle"
-    ]
+    }
 }
