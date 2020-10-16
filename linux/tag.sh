@@ -30,6 +30,18 @@ case $(uname) in
 	;;
 esac
 
+# check that username, password, api_url, and app_id have been set at the top of this script.
+if [ -z ${username} ] || [ -z ${password} ] || [ -z ${api_url} ] || [ -z ${app_id} ]; then
+	if [[ ${platform} == "darwin" ]]; then
+		osascript -e 'display notification "Need to set username, password, api_url, and app_id at the top of tag.sh script." with title "Yadle"'
+		exit
+	fi
+	if [[ ${platform} == "linux" ]]; then	
+		notify-send -t 5000 -u normal -i ${icon} "Need to set username, password, api_url, and app_id at the top of tag.sh script."
+		exit
+	fi
+fi
+
 # authenticate with API
 auth=$(curl --silent \
 	--request POST \
