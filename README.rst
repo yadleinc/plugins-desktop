@@ -26,7 +26,7 @@ Install the plugins by double-clicking the ``windows_installer.bat``.
 
 This creates the ``%USERPROFILE%\yadle\plugins`` directory and copies the Windows plugin files to it.
 
-Summary of plugins
+Summary of available plugins
 ------------------
 - **Set Bucket Folder:** Sets a destination folder or "bucket".
 
