@@ -18,7 +18,7 @@
             "terminal.json",
             "preview.json",
             "print.json",
-            "set_bucket.json"
+            "set_bucket.json",
             "tag.json"
         ]
     },
