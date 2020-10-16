@@ -60,12 +60,12 @@ curl -X PATCH \
 # send desktop[ message
 
 if [[ ${platform} == "darwin" ]]; then
-	osascript -e 'display notification "File ID: '${id}' tagged as #'${tag}' with title "Yadle"'
+	osascript -e 'display notification "File ID: '${id}' tagged as '${tag}'" with title "Yadle"'
 
 fi
 
 if [[ ${platform} == "linux" ]]; then	
-	notify-send -t 5000 -u normal -i ${icon} "File ID: '${id}' tagged as #'${tag}'"
+	notify-send -t 5000 -u normal -i ${icon} "File ID: '${id}' tagged as '${tag}'"
 fi
 
 # EOF
