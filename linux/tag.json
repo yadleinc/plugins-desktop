@@ -1,0 +1,13 @@
+{
+    "name": "Tag as favorite",
+    "command": [
+	"$HOME/yadle/plugins/tag.sh"
+    ],
+    "file_argument": "id",
+    "enabled": true,
+    "platforms": {
+        "win32": false,
+        "darwin": false,
+        "linux": true
+    }
+}
