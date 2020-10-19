@@ -4,6 +4,8 @@ Plugins for the Yadle desktop app.
 
 Installation
 ------------
+First, either clone this repo or download as .zip and extract. Then proceed with instructions depending on your OS.
+
 **Linux**
 
 ::
