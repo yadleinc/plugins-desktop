@@ -28,19 +28,19 @@ This creates the ``%USERPROFILE%\yadle\plugins`` directory and copies the Window
 
 Summary of available plugins
 ------------------
-- **Set Bucket Folder:** Sets a destination folder or "bucket".
+- **Set Bucket Folder:** Sets a destination folder or "bucket". (linux, macos, windows)
 
-- **Copy to Bucket:** Copy files from Yadle search results to "bucket".
+- **Copy to Bucket:** Copy files from Yadle search results to "bucket". (linux, macos, windows)
 
-- **Preview:** Preview the file with application of your choosing based on extension.
+- **Preview:** Preview the file with application of your choosing based on extension. (linux)
 
-- **Open in Terminal:** Opens selected file in terminal.
+- **Open in Terminal:** Opens selected file in terminal. (linux, windows)
 
-- **Open in File Browser/Explorer:** Opens selected file in OS native file explorer.
+- **Open in File Browser/Explorer:** Opens selected file in OS native file explorer. (linux, windows)
 
-- **Tag as Favorite:** Apply #favorite tag to files with the click of a button. No need for any keyboard entry.
+- **Tag as Favorite:** Apply #favorite tag to files with the click of a button. No need for any keyboard entry. (linux, macos)
 
-- **Print:** Prints selected file.
+- **Print:** Prints selected file. (linux)
 
 These plugins are meant to act as examples providing the framework to create your own custom actions.
 
