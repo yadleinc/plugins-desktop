@@ -7,20 +7,16 @@ Installation
 First, either clone this repo or download as .zip and extract. Then proceed with instructions depending on your OS.
 
 **Linux**
-
+Run the linux_installer.sh script. This creates the ``~/yadle/plugins`` directory and copies the Linux plugin files to it.
 ::
 
    bash linux_installer.sh
 
-This creates the ``~/yadle/plugins`` directory and copies the Linux plugin files to it.
-
 **macOS**
-
+Run the macos_installer.sh script. This creates the ``~/yadle/plugins`` directory and copies the macOS plugin files to it.
 ::
 
    bash macos_installer.sh
-   
-This creates the ``~/yadle/plugins`` directory and copies the macOS plugin files to it.
 
 **Windows**
 
